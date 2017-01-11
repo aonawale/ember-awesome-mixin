@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('inplace-loading');
+  this.route('loading');
 });
 
 export default Router;
